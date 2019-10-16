@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "Matrix.txt" "Result.txt"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "61.txt" "Result.txt"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "1.txt" "Result.txt"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "9.txt" "Result.txt"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "t1.txt" "Report.txt" "ND_set" "t1"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" "t1.txt" "Report.txt" "ND_set" "t1"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "Matix.txt" "Output.txt"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "Matrix.txt" "Output.txt"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "1.txt" "Output.txt"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "12.txt" "Output.txt"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "t1.txt" "Report.txt" "ND_set" "t1"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "2DKP.txt" "Report.txt" "ND_set" "t1"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "2DKP_General.txt" "Report.txt" "ND_set" "t1"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "AP_v_3_General.txt" "Report.txt" "ND_set" "t1"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "AP_V50_General.txt" "Report.txt" "ND_set" "t1"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" "AP_V50_General.txt" "Report.txt" "ND_set" "t1"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
